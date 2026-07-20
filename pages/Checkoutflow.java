@@ -109,7 +109,7 @@ public class Checkoutflow {
     public void clickCartIcon() {
         System.out.println("Checking Cart Count...");
         
-        // --- NEW LIGHT ASSERTIONS ---
+       
         // 1. Verify the badge actually appeared
         Assert.assertFalse(cartBadgeTexts.isEmpty(), "Cart badge is missing! Item was not added.");
         
