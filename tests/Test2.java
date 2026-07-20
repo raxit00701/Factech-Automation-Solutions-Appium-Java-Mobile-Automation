@@ -33,7 +33,7 @@ public class Test2 extends MastodonBase {
         // Scroll back to top before clicking the cart icon
         checkoutFlow.scrollBackUpToBackpack();
         
-        // This will now check and print the cart count before clicking!
+       
         checkoutFlow.clickCartIcon();
         
         // --- NEW PRINT STATEMENT (Cart Screen) ---
