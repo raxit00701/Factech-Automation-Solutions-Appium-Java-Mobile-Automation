@@ -7,7 +7,7 @@ This project was completed as part of the QA / Mobile Test Automation Intern ass
 
 ## 🛠 Tech Stack
 * **Language:** Java (JDK 17)
-* **Automation Tool:** Appium (v2.x)
+* **Automation Tool:** Appium (v3.0.1)
 * **Test Framework:** TestNG
 * **Build Tool:** Maven
 * **Reporting:** Allure Reports
