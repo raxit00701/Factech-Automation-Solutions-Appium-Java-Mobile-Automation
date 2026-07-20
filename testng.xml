@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<!-- "none" is the standard TestNG value instead of "false" for sequential execution -->
+<suite name="Appium CSV Non-Parallel" verbose="1" parallel="none">
+
+    <!-- Register the Allure listener so your reports generate correctly! -->
+    <listeners>
+        <listener class-name="listeners.AllureTestListener"/>
+    </listeners>
+
+    <!-- Base parameters for MastodonBase -->
+    <parameter name="udid" value="emulator-5554"/>
+    <parameter name="serverPort" value="4724"/>
+    <parameter name="systemPort" value="0"/>
+    <parameter name="chromedriverPort" value="0"/>
+    <parameter name="noReset" value="true"/>
+
+    <!-- Run all tests in the 'tests' package -->
+    <test name="All Tests (package: tests)">
+        <packages>
+            <package name="tests"/>
+        </packages>
+    </test>
+
+</suite>
