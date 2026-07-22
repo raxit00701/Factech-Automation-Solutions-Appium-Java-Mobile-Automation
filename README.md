@@ -38,7 +38,7 @@ Ensure the following tools are installed on your machine:
 1. **Java JDK 17+**: Ensure `JAVA_HOME` is set.
 2. **Maven**: Ensure `mvn` is added to your system path.
 3. **Node.js**: Required to run Appium.
-4. **Appium 2.x**: Installed globally via npm (`npm i -g appium`).
+4. **Appium 3.0.1**: Installed globally via npm (`npm i -g appium`).
 5. **Appium UiAutomator2 Driver**: Installed via Appium (`appium driver install uiautomator2`).
 6. **Android Studio / SDK**: Ensure `ANDROID_HOME` is set and you have a configured Android Emulator.
 7. **Target Application:** Download the latest Sauce Labs Demo `.apk` from GitHub and ensure it is installed on your emulator.
